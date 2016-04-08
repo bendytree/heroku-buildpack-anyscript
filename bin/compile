@@ -2,7 +2,9 @@
 
 echo "START Of Any Script ----->"
 
-$1/heroku-buildpack-anyscript.sh
+cd $1
+chmod +x heroku-buildpack-anyscript.sh
+./heroku-buildpack-anyscript.sh
 
 echo "END Of Any Script <------"
 
