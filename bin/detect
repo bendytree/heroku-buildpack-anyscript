@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "AnyScript"
+exit 0

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "START Of Any Script ----->"
+
+./heroku-buildpack-anyscript.sh
+
+echo "END Of Any Script <------"
+
